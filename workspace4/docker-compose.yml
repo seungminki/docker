@@ -8,9 +8,9 @@ services:
             - db_volume:/var/lib/mysql
         environment:
             MYSQL_DATABASE: my-services
-            MYSQL_USER: test-user
-            MYSQL_PASSWORD: 12345!
-            MYSQL_ROOT_PASSWORD: 12345!
+            MYSQL_USER: 
+            MYSQL_PASSWORD: 
+            MYSQL_ROOT_PASSWORD: 
 
 volumes:
     db_volume:
